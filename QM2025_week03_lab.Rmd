@@ -387,6 +387,12 @@ ggplot(
   )
 ```
 
+#  {.unnumbered}
+
+## {.tabset .unnumbered}
+
+
+
 Now we can calculate empirical quantiles from the distribution:
 
 ```{r Simulated CI}
@@ -401,9 +407,7 @@ And let's see if there is a numerical difference between two approaches:
 ```{r Compare CIs}
 ci_sim - ci_an # should be close to zero!
 ```
-#  {.unnumbered}
 
-## {.tabset .unnumbered}
 
 Even better, we can even add the quantiles to the plot.
 
