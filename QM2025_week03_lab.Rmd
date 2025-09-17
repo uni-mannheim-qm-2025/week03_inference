@@ -1,7 +1,7 @@
 ---
-title: "QM 2024 Week 3: Statistical Inference"
-author: "Domantas Undzėnas<br>Lisa-Marie Müller"
-date: "September 19 | 20, 2024"
+title: "QM 2025 Week 3: Statistical Inference"
+author: "Domantas Undzėnas<br>Muhammad Muhammad<br>David Grundmanns"
+date: "September 18 | 19, 2025"
 output:
   html_document:
     toc: yes
@@ -76,7 +76,7 @@ if (length(p_to_install) > 0) {
 sapply(p_needed, require, character.only = TRUE)
 
 # set the seed for replicability
-set.seed(2024)
+set.seed(2025)
 ```
 
 
